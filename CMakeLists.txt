@@ -22,6 +22,6 @@ if(Boost_FOUND)
 endif()
 
 # My understanding: for builder can find directory of header file.
-include_directories(${PROJECT_SOURCE_DIR}/src)
+#include_directories(${PROJECT_SOURCE_DIR}/src)
 
-add_subdirectory(src/file)
+add_subdirectory(src)
