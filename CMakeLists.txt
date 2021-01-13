@@ -18,6 +18,7 @@ if(Boost_FOUND)
 endif()
 
 include_directories(${PROJECT_SOURCE_DIR})
+include_directories(${PROJECT_SOURCE_DIR}/third_party/include)
 
 add_subdirectory(src)
 add_subdirectory(third_party)
