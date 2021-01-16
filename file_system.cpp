@@ -1,8 +1,8 @@
-#include "src\file_system.h"
+#include "file_system.h"
 
 #include "boost\filesystem.hpp"
 
-#include "src\encoding.h"
+#include "encoding.h"
 
 namespace base {
 

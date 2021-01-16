@@ -1,4 +1,4 @@
-#include "src\encoding.h"
+#include "encoding.h"
 
 #include <windows.h>
 

@@ -10,6 +10,6 @@ std::string Utf16ToUtf8(const std::wstring& utf16_string);
 // Convert UTF8 to UTF16.
 std::wstring Utf8ToUtf16(const std::string& utf8_string);
 
-}
+}  // namespace base
 
 #endif  // BASE_ENCODING_H_

@@ -17,7 +17,12 @@ if(Boost_FOUND)
     message(STATUS ${Boost_LIBRARIES})
 endif()
 
+file(GLOB SRC CONFIGURE_DEPENDS 
+        "*.cpp"
+        "*.h"
+)
+
+add_library(base STATIC ${SRC})
+
 include_directories(${PROJECT_SOURCE_DIR})
 include_directories(${PROJECT_SOURCE_DIR}/third_party/include)
-
-add_subdirectory(src)
