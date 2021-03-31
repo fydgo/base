@@ -8,9 +8,6 @@ namespace base {
 std::string RandomUuid();
 std::string SimpleRandomUuid();
 
-
-
-
 }  // namespace base
 
 #endif  // BASE_UUID_H_
